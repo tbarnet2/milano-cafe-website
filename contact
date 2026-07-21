@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Milano Cafe | Austin TX Italian Restaurant</title>
+
+    <meta name="description" content="Contact Milano Cafe in Austin, Texas. Find our phone number, email, location, business hours, and send us a message.">
+
+    /css/bootstrap.min.css" rel="stylesheet">
+    css/styles.css
+
+    fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+
+        <a class="navbar-brand" href="index.html">
+            Milano Cafe
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="menu.html">Menu</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="reservations.html">Reservations</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="ordering.html">Order Online</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="contact.html">Contact</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+
+<section class="page-hero text-center text-white py-5">
+    <div class="container">
+
+        <h1 class="display-4 fw-bold">
+            Contact Milano Cafe
+        </h1>
+
+        <p class="lead">
+            We'd love to hear from you.
+        </p>
+
+    </div>
+</section>
+
+<!-- CONTACT INFO -->
+
+<section class="py-5">
+
+    <div class="container">
+
+        <div class="row g-5">
+
+            <div class="col-lg-5">
+
+                <h2 class="mb-4">Restaurant Information</h2>
+
+                <div class="contact-card">
+
+                    <h5>Address</h5>
+
+                    <p>
+                        4601 Southwest Parkway<br>
+                        Austin, TX 78735
+                    </p>
+
+                    <hr>
+
+                    <h5>Phone</h5>
+
+                    <p>
+                        tel:5124286076(512) 428-6076</a>
+                    </p>
+
+                    <hr>
+
+                    <h5>Email</h5>
+
+                    <p>
+                        <a href="mailto:cafemilanoaustin@gmail.com">
+                            cafemilanoaustin@gmail.com
+                        </a>
+                    </p>
+
+                    <hr>
+
+                    <h5>Hours of Operation</h5>
+
+                    <ul class="list-unstyled">
+                        <li>Monday - Saturday: 11 AM - 9 PM</li>
+                        <li>Sunday: Closed</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-7">
+
+                <div class="card shadow">
+
+                    <div class="card-body p-4">
+
+                        <h2 class="mb-4">
+                            Send Us a Message
+                        </h2>
+
+                        <!-- Replace Formspree URL later -->
+
+                        https://formspree.io/f/your-form-id
+
+                            <div class="row">
+
+                                <div class="col-md-6 mb-3">
+
+                                    <label class="form-label">
+                                        First Name
+                                    </label>
+
+                                    <input type="text"
+                                           name="first_name"
+                                           class="form-control"
+                                           required>
+
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+
+                                    <label class="form-label">
+                                        Last Name
+                                    </label>
+
+                                    <input type="text"
+                                           name="last_name"
+                                           class="form-control"
+                                           required>
+
+                                </div>
+
+                            </div>
+
+                            <div class="mb-3">
+
+                                <label class="form-label">
+                                    Email Address
+                                </label>
+
+                                <input type="email"
+                                       name="email"
+                                       class="form-control"
+                                       required>
+
+                            </div>
+
+                            <div class="mb-3">
+
+                                <label class="form-label">
+                                    Phone Number
+                                </label>
+
+                                <input type="tel"
+                                       name="phone"
+                                       class="form-control">
+
+                            </div>
+
+                            <div class="mb-3">
+
+                                <label class="form-label">
+                                    Subject
+                                </label>
+
+                                <input type="text"
+                                       name="subject"
+                                       class="form-control">
+
+                            </div>
+
+                            <div class="mb-3">
+
+                                <label class="form-label">
+                                    Message
+                                </label>
+
+                                <textarea
+                                    name="message"
+                                    rows="6"
+                                    class="form-control"
+                                    required></textarea>
+
+                            </div>
+
+                            <button type="submit"
+                                    class="btn btn-success btn-lg">
+                                Send Message
+                            </button>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- MAP -->
+
+<section class="py-5 bg-light">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <h2>Find Us</h2>
+
+            <p class="lead">
+                Conveniently located in Southwest Austin.
+            </p>
+
+        </div>
+
+        <div class="ratio ratio-16x9 shadow">
+
+            https://maps.google.com/maps?q=4601%20Southwest%20Parkway%20Austin%20TX&t=&z=15&ie=UTF8&iwloc=&output=embed
+            </iframe>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- SOCIAL -->
+
+<section class="py-5">
+
+    <div class="container text-center">
+
+        <h2>Connect With Us</h2>
+
+        <p class="lead">
+            Follow along for new menu items, events, and live music.
+        </p>
+
+        <a href="https://www.instagram.com/milanocafeatx/"
+           target="_blank"
+           class="btn btn-outline-success btn-lg">
+            Follow on Instagram
+        </a>
+
+    </div>
+
+</section>
+
+<!-- CTA -->
+
+<section class="bg-dark text-white py-5">
+
+    <div class="container text-center">
+
+        <h2>Ready for Authentic Italian Cuisine?</h2>
+
+        <p class="lead">
+            Reserve a table or order online today.
+        </p>
+
+        <a href="reservations.html"
+           class="btn btn-light btn-lg me-3">
+            Reserve a Table
+        </a>
+
+        <a href="ordering.html"
+           class="btn btn-success btn-lg">
+            Order Online
+        </a>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer class="bg-dark text-white text-center py-4">
+
+    <div class="container">
+
+        <p class="mb-0">
+            © 2026 Milano Cafe | Austin, Texas
+        </p>
+
+    </div>
+
+</footer>
+
+/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+js/script.js
+
+</body>
+</html>
