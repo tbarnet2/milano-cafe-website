@@ -6,27 +6,35 @@
 
     <title>Order Online | Milano Cafe Austin TX</title>
 
-    <meta name="description" content="Order Milano Cafe online for pickup or delivery. Enjoy authentic Italian cuisine from one of Austin's favorite Italian restaurants.">
+    <meta name="description"
+          content="Order Milano Cafe online for pickup or delivery. Enjoy authentic Italian cuisine from one of Austin's favorite Italian restaurants.">
 
-    https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
-    css/styles.css
+    .net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    ://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    .css">
+
+    =Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap"
+          rel="stylesheet">
 </head>
 
 <body>
 
 <!-- NAVIGATION -->
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
     <div class="container">
 
-        <a class="navbar-brand" href="index.html">
+        ">
             Milano Cafe
         </a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+
             <span class="navbar-toggler-icon"></span>
+
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -60,23 +68,22 @@
             </ul>
 
         </div>
+
     </div>
 </nav>
 
 <!-- HERO -->
 
-<section class="page-hero text-white text-center py-5">
+<section class="page-hero text-center text-white">
     <div class="container">
 
-        <h1 class="display-4 fw-bold">
-            Order Online
-        </h1>
+        <h1>Order Online</h1>
 
         <p class="lead">
-            Fresh Italian favorites available for pickup or delivery.
+            Authentic Italian favorites available for pickup and delivery.
         </p>
 
-        <a href="https://order.spoton.com/so-milano-cafe-23898/austin-tx/682b85c2b3310a5fadb57869"
+        /so-milano-cafe-23898/austin-tx/682b85c2b3310a5fadb57869"
            target="_blank"
            class="btn btn-success btn-lg mt-3">
             Start Your Order
@@ -93,10 +100,10 @@
 
         <div class="text-center mb-5">
 
-            <h2>Choose Your Ordering Option</h2>
+            <h2>Pickup or Delivery</h2>
 
             <p class="lead">
-                Fast, convenient, and delicious.
+                Enjoy Milano Cafe wherever you are.
             </p>
 
         </div>
@@ -105,25 +112,25 @@
 
             <div class="col-md-6">
 
-                <div class="card shadow h-100">
+                <div class="card h-100 shadow-sm">
 
-                    <div class="card-body text-center p-5">
+                    <div class="card-body text-center p-4">
 
-                        <h3>Pickup</h3>
+                        <h3>Pickup Orders</h3>
 
                         <p>
-                            Place your order online and pick it up directly from Milano Cafe at your convenience.
+                            Order ahead and pick up fresh Italian cuisine directly from Milano Cafe.
                         </p>
 
                         <ul class="list-unstyled">
-                            <li>✓ Skip the wait</li>
+                            <li>✓ Fast pickup</li>
                             <li>✓ Freshly prepared</li>
-                            <li>✓ Convenient pickup times</li>
+                            <li>✓ Convenient scheduling</li>
                         </ul>
 
-                        ://order.spoton.com/so-milano-cafe-23898/austin-tx/682b85c2b3310a5fadb57869"
+                        https://order.spoton.com/so-milano-cafe-23898/austin-tx/682b85c2b3310a5fadb57869"
                            target="_blank"
-                           class="btn btn-primary mt-3">
+                           class="btn btn-primary">
                             Order Pickup
                         </a>
 
@@ -135,25 +142,25 @@
 
             <div class="col-md-6">
 
-                <div class="card shadow h-100">
+                <div class="card h-100 shadow-sm">
 
-                    <div class="card-body text-center p-5">
+                    <div class="card-body text-center p-4">
 
-                        <h3>Delivery</h3>
+                        <h3>Delivery Orders</h3>
 
                         <p>
-                            Enjoy Milano Cafe from the comfort of your home with online delivery options.
+                            Have your favorite Milano Cafe dishes delivered to your home or office.
                         </p>
 
                         <ul class="list-unstyled">
                             <li>✓ Easy online ordering</li>
-                            <li>✓ Fresh Italian cuisine</li>
-                            <li>✓ Delivered to your door</li>
+                            <li>✓ Secure checkout</li>
+                            <li>✓ Delivered fresh</li>
                         </ul>
 
-                        ://order.spoton.com/so-milano-cafe-23898/austin-tx/682b85c2b3310a5fadb57869"
+                        so-milano-cafe-23898/austin-tx/682b85c2b3310a5fadb57869"
                            target="_blank"
-                           class="btn btn-success mt-3">
+                           class="btn btn-success">
                             Order Delivery
                         </a>
 
@@ -177,7 +184,7 @@
 
         <div class="text-center mb-5">
 
-            <h2>Popular Online Favorites</h2>
+            <h2>Popular Favorites</h2>
 
         </div>
 
@@ -185,48 +192,64 @@
 
             <div class="col-md-3">
 
-                <div class="card h-100 shadow-sm">
+                <div class="card h-100">
+
                     images/food1.jpg
+
                     <div class="card-body text-center">
+
                         <h5>Chicken Parmigiana</h5>
-                        <p>Guest favorite.</p>
+
                     </div>
+
                 </div>
 
             </div>
 
             <div class="col-md-3">
 
-                <div class="card h-100 shadow-sm">
-                    images/food2.jpg="card-img-top" alt="Lasagna">
+                <div class="card h-100">
+
+                    images/food2.jpg
+
                     <div class="card-body text-center">
+
                         <h5>Lasagna</h5>
-                        <p>House specialty.</p>
+
                     </div>
+
                 </div>
 
             </div>
 
             <div class="col-md-3">
 
-                <div class="card h-100 shadow-sm">
-                    images/food3.jpg class="card-img-top" alt="Fettuccine Alfredo">
+                <div class="card h-100">
+
+                    images/food3.jpg
+
                     <div class="card-body text-center">
+
                         <h5>Fettuccine Alfredo</h5>
-                        <p>Rich and creamy.</p>
+
                     </div>
+
                 </div>
 
             </div>
 
             <div class="col-md-3">
 
-                <div class="card h-100 shadow-sm">
+                <div class="card h-100">
+
                     images/food4.jpg
+
                     <div class="card-body text-center">
+
                         <h5>Margherita Pizza</h5>
-                        <p>Classic Italian favorite.</p>
+
                     </div>
+
                 </div>
 
             </div>
@@ -245,7 +268,7 @@
 
         <div class="text-center mb-5">
 
-            <h2>How Online Ordering Works</h2>
+            <h2>How It Works</h2>
 
         </div>
 
@@ -256,7 +279,7 @@
                 <h4>1. Browse</h4>
 
                 <p>
-                    Explore our menu and choose your favorites.
+                    Explore our online menu and choose your favorites.
                 </p>
 
             </div>
@@ -266,7 +289,7 @@
                 <h4>2. Order</h4>
 
                 <p>
-                    Place your order securely through our online ordering platform.
+                    Securely place your order through SpotOn.
                 </p>
 
             </div>
@@ -296,23 +319,28 @@
         <div class="row align-items-center">
 
             <div class="col-lg-6">
-                images/catering.jpg
+
+                images/catering.jpg"
+                     alt="Catering Service"
+                     class="img-fluid rounded shadow">
+
             </div>
 
             <div class="col-lg-6">
 
-                <h2>Catering Available</h2>
+                <h2>Catering & Large Orders</h2>
 
                 <p>
-                    Planning a business meeting, family gathering, birthday party, or special event?
+                    Hosting an office lunch, family gathering, birthday, or special event?
                 </p>
 
                 <p>
-                    Contact Milano Cafe about catering options and large-group orders.
+                    Contact Milano Cafe about catering and large-order options.
                 </p>
 
-                <a href="contact.html" class="btn btn-success">
-                    Request Catering Information
+                "
+                   class="btn btn-success">
+                    Contact Us
                 </a>
 
             </div>
@@ -323,21 +351,21 @@
 
 </section>
 
-<!-- ORDER CTA -->
+<!-- FINAL CTA -->
 
-<section class="bg-dark text-white py-5">
+<section class="cta-section text-white py-5">
 
     <div class="container text-center">
 
-        <h2>Ready to Order?</h2>
+        <h2>Ready To Order?</h2>
 
         <p class="lead">
-            Fresh Italian cuisine is just a click away.
+            Fresh Italian cuisine is only a click away.
         </p>
 
-        <a href="https://order.spoton.com/so-milano-cafe-23898/austin-tx/682b85c2b3310a5fadb57869"
+        oton.com/so-milano-cafe-23898/austin-tx/682b85c2b3310a5fadb57869"
            target="_blank"
-           class="btn btn-success btn-lg">
+           class="btn btn-light btn-lg">
             Order Online Now
         </a>
 
@@ -347,7 +375,7 @@
 
 <!-- FOOTER -->
 
-<footer class="bg-dark text-white text-center py-4">
+<footer class="text-center text-white py-4">
 
     <div class="container">
 
@@ -359,8 +387,9 @@
 
 </footer>
 
-https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
-.js"></script>
+.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+js/script.js
 
 </body>
 </html>
