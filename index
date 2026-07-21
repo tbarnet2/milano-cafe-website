@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Milano Cafe | Authentic Italian Restaurant in Austin TX</title>
+
+<meta name="description" content="Experience authentic Italian cuisine at Milano Cafe in Austin, Texas. Fresh pasta, artisan pizza, live music, online ordering, and reservations.">
+
+<meta name="keywords" content="Italian Restaurant Austin, Pasta Austin, Pizza Austin, Italian Food Austin, Milano Cafe">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5s/bootstrap.min.css
+
+<link rel="css
+
+fonts.googleapis.com">
+https://fonts.gstatic.com
+
+;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+<div class="container">
+
+<a class="navbar-brand" href="index.html">
+Milano Cafe
+</a>
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+<a class="nav-link active" href="index.html">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="about.html">About</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="menu.html">Menu</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="reservations.html">Reservations</a>
+</li>
+
+<li class="nav-item">
+ordering.html">Order Online</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="contact.html">Contact</a>
+</li>
+
+</ul>
+</div>
+
+</div>
+</nav>
+
+<!-- HERO -->
+
+<section class="hero-section">
+
+<div class="overlay"></div>
+
+<div class="container text-center hero-content">
+
+<h1>
+Authentic Italian Dining in Austin
+</h1>
+
+<p class="lead mt-3">
+Fresh pasta, artisan pizza, fine wines, and warm hospitality.
+</p>
+
+<div class="mt-4">
+
+<a href="https://reserve.spoton.com/restaurant/73694"
+class="btn btn-primary btn-lg me-2"
+target="_blank">
+Reserve A Table
+</a>
+
+so-milano-cafe-23898/austin-tx/682b85c2b3310a5fadb57869"
+class="btn btn-outline-light btn-lg"
+target="_blank">
+Order Online
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FEATURED DISHES -->
+
+<section class="py-5">
+
+<div class="container">
+
+<div class="text-center mb-5">
+
+<h2>Featured Favorites</h2>
+
+<p>
+Hand-crafted Italian classics made with fresh ingredients.
+</p>
+
+</div>
+
+<div class="row g-4">
+
+<div class="col-md-3">
+
+<div class="card shadow-sm h-100">
+
+images/food1.jpg class="card-img-top" alt="Chicken Parmigiana">
+
+<div class="card-body">
+
+<h5>Chicken Parmigiana</h5>
+
+<p>
+Breaded chicken topped with marinara and mozzarella.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-3">
+
+<div class="card shadow-sm h-100">
+
+images/food2.jpgcard-img-top" alt="Lasagna">
+
+<div class="card-body">
+
+<h5>Lasagna</h5>
+
+<p>
+Layers of pasta, rich meat
