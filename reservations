@@ -1,209 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Reservations | Milano Cafe Austin TX</title>
+    <title>Reservations | Milano Cafe Austin TX</title>
 
-<meta name="description" content="Reserve your table at Milano Cafe in Austin, Texas. Enjoy authentic Italian cuisine, live music, and an unforgettable dining experience.">
+    <meta name="description"
+          content="Reserve your table at Milano Cafe in Austin, Texas. Enjoy authentic Italian cuisine, live music, and exceptional hospitality.">
 
-https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
-css/styles.css
+    https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
 
-https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap
+    css/styles.css
+
+    <link href="s.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap
 </head>
 
 <body>
 
 <!-- NAVIGATION -->
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-<div class="container">
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
 
-index.html">
-Milano Cafe
-</a>
+        <a class="navbar-brand" href="index.html">
+            Milano Cafe
+        </a>
 
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-<span class="navbar-toggler-icon"></span>
-</button>
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-<div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse" id="navbarNav">
 
-<ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ms-auto">
 
-<li class="nav-item">
-<a class="nav-link" href="index.html">Home</a>
-</li>
+                <li class="nav-item">
+                    index.html">Home</a>
+                </li>
 
-<li class="nav-item">
-">About</a>
-</li>
+                <li class="nav-item">
+                    .html">About</a>
+                </li>
 
-<li class="nav-item">
-<a class="nav-link" href="menu.html">Menu</a>
-</li>
+                <li class="nav-item">
+                    ">Menu</a>
+                </li>
 
-<li class="nav-item">
-<a class="nav-link active" href="reservations.html">Reservations</a>
-</li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="reservations.html">Reservations</a>
+                </li>
 
-<li class="nav-item">
-<a class="nav-link" href="ordering.html">Order Online</a>
-</li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ordering.html">Order Online</a>
+                </li>
 
-<li class="nav-item">
-<a class="nav-link" href="contact.html">Contact</a>
-</li>
+                <li class="nav-item">
+                    ">Contact</a>
+                </li>
 
-</ul>
+            </ul>
 
-</div>
-</div>
+        </div>
+
+    </div>
 </nav>
 
 <!-- HERO -->
 
-<section class="page-hero text-white text-center py-5">
+<section class="page-hero text-white text-center">
+    <div class="container">
 
-<div class="container">
+        <h1>Reserve Your Table</h1>
 
-<h1 class="display-4 fw-bold">
-Reserve Your Table
-</h1>
+        <p class="lead">
+            Enjoy authentic Italian dining in a warm and welcoming atmosphere.
+        </p>
 
-<p class="lead">
-Experience authentic Italian cuisine, live music, and warm hospitality.
-</p>
-
-</div>
-
+    </div>
 </section>
 
-<!-- RESERVATION CTA -->
+<!-- MAIN RESERVATION CTA -->
 
 <section class="py-5">
 
-<div class="container text-center">
+    <div class="container text-center">
 
-<h2 class="mb-4">
-Book Your Dining Experience
-</h2>
+        <h2>Book Your Dining Experience</h2>
 
-<p class="lead">
-Reservations are recommended, especially during evenings, weekends, and special events.
-</p>
+        <p class="lead">
+            Reserve your table online in just a few clicks.
+        </p>
 
-<a href="https://reserve.spoton.com/restaurant/73694"
-target="_blank"
-class="btn btn-success btn-lg px-5 mt-3">
-Reserve Now
-</a>
+        <a href="https://reserve.spoton.com/restaurant/73694"
+           target="_blank"
+           class="btn btn-success btn-lg mt-3">
+            Reserve Now
+        </a>
 
-</div>
+    </div>
 
 </section>
 
-<!-- RESERVATION FORM -->
+<!-- RESERVATION BENEFITS -->
 
 <section class="bg-light py-5">
 
-<div class="container">
+    <div class="container">
 
-<div class="row justify-content-center">
+        <div class="text-center mb-5">
 
-<div class="col-lg-8">
+            <h2>Why Reserve Ahead?</h2>
 
-<div class="card shadow">
+        </div>
 
-<div class="card-body p-4">
+        <div class="row text-center">
 
-<h3 class="mb-4 text-center">
-Reservation Request
-</h3>
+            <div class="col-md-4">
 
-<form>
+                <div class="card h-100 shadow-sm">
 
-<div class="row">
+                    <div class="card-body">
 
-<div class="col-md-6 mb-3">
-<label class="form-label">First Name</label>
-<input type="text" class="form-control">
-</div>
+                        <h4>Priority Seating</h4>
 
-<div class="col-md-6 mb-3">
-<label class="form-label">Last Name</label>
-<input type="text" class="form-control">
-</div>
+                        <p>
+                            Guarantee your table during busy lunch and dinner hours.
+                        </p>
 
-</div>
+                    </div>
 
-<div class="mb-3">
-<label class="form-label">Email Address</label>
-<input type="email" class="form-control">
-</div>
+                </div>
 
-<div class="mb-3">
-<label class="form-label">Phone Number</label>
-<input type="tel" class="form-control">
-</div>
+            </div>
 
-<div class="row">
+            <div class="col-md-4">
 
-<div class="col-md-6 mb-3">
-<label class="form-label">Preferred Date</label>
-<input type="date" class="form-control">
-</div>
+                <div class="card h-100 shadow-sm">
 
-<div class="col-md-6 mb-3">
-<label class="form-label">Preferred Time</label>
-<input type="time" class="form-control">
-</div>
+                    <div class="card-body">
 
-</div>
+                        <h4>Special Occasions</h4>
 
-<div class="mb-3">
-<label class="form-label">Party Size</label>
+                        <p>
+                            Perfect for anniversaries, birthdays, and celebrations.
+                        </p>
 
-<select class="form-select">
-<option>1 Guest</option>
-<option>2 Guests</option>
-<option>3 Guests</option>
-<option>4 Guests</option>
-<option>5 Guests</option>
-<option>6 Guests</option>
-<option>7 Guests</option>
-<option>8+ Guests</option>
-</select>
+                    </div>
 
-</div>
+                </div>
 
-<div class="mb-3">
-<label class="form-label">Special Requests</label>
-<textarea class="form-control" rows="4"></textarea>
-</div>
+            </div>
 
-<div class="text-center">
+            <div class="col-md-4">
 
-<a href="https://reserve.spoton.com/restaurant/73694"
-target="_blank"
-class="btn btn-primary btn-lg">
-Complete Reservation
-</a>
+                <div class="card h-100 shadow-sm">
 
-</div>
+                    <div class="card-body">
 
-</form>
+                        <h4>Convenient Planning</h4>
 
-</div>
-</div>
+                        <p>
+                            Reserve online anytime and receive confirmation instantly.
+                        </p>
 
-</div>
+                    </div>
 
-</div>
+                </div>
 
-</div>
+            </div>
+
+        </div>
+
+    </div>
 
 </section>
 
@@ -211,230 +183,161 @@ Complete Reservation
 
 <section class="py-5">
 
-<div class="container">
+    <div class="container">
 
-<div class="text-center mb-5">
+        <div class="text-center mb-5">
+            <h2>Reservation Information</h2>
+        </div>
 
-<h2>Reservation Policies</h2>
+        <div class="row">
 
-</div>
+            <div class="col-lg-6">
 
-<div class="row g-4">
+                <h4>Dining Hours</h4>
 
-<div class="col-md-4">
+                <ul>
+                    <li>Monday – Saturday: 11:00 AM – 9:00 PM</li>
+                    <li>Sunday: Closed</li>
+                </ul>
 
-<div class="card h-100 shadow-sm">
+                <h4 class="mt-4">Large Parties</h4>
 
-<div class="card-body text-center">
+                <p>
+                    For larger groups and special events, please contact the restaurant
+                    directly for accommodations.
+                </p>
 
-<h4>Arrival Time</h4>
+            </div>
 
-<p>
-Please arrive on time so we can provide the best experience for all guests.
-</p>
+            <div class="col-lg-6">
 
-</div>
+                <h4>Special Requests</h4>
 
-</div>
+                <p>
+                    Please mention dietary restrictions, celebrations, or accessibility
+                    needs when making your reservation.
+                </p>
 
-</div>
+                <h4 class="mt-4">Questions?</h4>
 
-<div class="col-md-4">
+                <p>
+                    Contact us at (512) 428-6076 or
+                    cafemilanoaustin@gmail.com.
+                </p>
 
-<div class="card h-100 shadow-sm">
+            </div>
 
-<div class="card-body text-center">
+        </div>
 
-<h4>Large Parties</h4>
-
-<p>
-Parties of 8 or more are encouraged to contact the restaurant directly.
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="col-md-4">
-
-<div class="card h-100 shadow-sm">
-
-<div class="card-body text-center">
-
-<h4>Special Events</h4>
-
-<p>
-Please notify us in advance of celebrations, dietary restrictions, or special accommodations.
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
+    </div>
 
 </section>
 
-<!-- PRIVATE DINING -->
+<!-- PRIVATE EVENTS -->
 
 <section class="bg-light py-5">
 
-<div class="container">
+    <div class="container">
 
-<div class="row align-items-center">
+        <div class="row align-items-center">
 
-<div class="col-lg-6">
+            <div class="col-lg-6">
 
--dining.jpg"
-class="img-fluid rounded shadow"
-alt="Private Dining">
+                ining.jpg"
+                     alt="Private Dining"
+                     class="img-fluid rounded shadow">
 
-</div>
+            </div>
 
-<div class="col-lg-6">
+            <div class="col-lg-6">
 
-<h2>Private Dining & Special Events</h2>
+                <h2>Private Events & Celebrations</h2>
 
-<p>
-Planning a birthday, anniversary, business dinner, or special celebration?
-</p>
+                <p>
+                    Milano Cafe is a wonderful setting for birthdays,
+                    anniversaries, family gatherings, business dinners,
+                    and special celebrations.
+                </p>
 
-<p>
-Milano Cafe offers a welcoming atmosphere perfect for gatherings of all sizes.
-</p>
+                <p>
+                    Contact us directly to discuss group dining options
+                    and event availability.
+                </p>
 
-<p>
-Contact our team directly to discuss event options and availability.
-</p>
+                <a href="contact.html"
+                   class="btn btn-success">
+                    Contact Us
+                </a>
 
-<a href="contact.html" class="btn btn-success">
-Contact Us
-</a>
+            </div>
 
-</div>
+        </div>
 
-</div>
-
-</div>
-
-</section>
-
-<!-- CONTACT INFO -->
-
-<section class="py-5">
-
-<div class="container">
-
-<div class="text-center mb-5">
-
-<h2>Reservation Assistance</h2>
-
-</div>
-
-<div class="row text-center">
-
-<div class="col-md-4">
-
-<h5>Phone</h5>
-
-<p>
-(512) 428-6076
-</p>
-
-</div>
-
-<div class="col-md-4">
-
-<h5>Email</h5>
-
-<p>
-cafemilanoaustin@gmail.com
-</p>
-
-</div>
-
-<div class="col-md-4">
-
-<h5>Location</h5>
-
-<p>
-4601 Southwest Pkwy<br>
-Austin, TX 78735
-</p>
-
-</div>
-
-</div>
-
-</div>
+    </div>
 
 </section>
 
 <!-- HOURS -->
 
-<section class="bg-dark text-white py-5">
+<section class="py-5">
 
-<div class="container text-center">
+    <div class="container text-center">
 
-<h2>Hours of Operation</h2>
+        <div class="hours-box">
 
-<p class="lead mt-4">
-Monday – Saturday
-</p>
+            <h2>Restaurant Hours</h2>
 
-<p>
-11:00 AM – 9:00 PM
-</p>
+            <p class="mt-4">
+                Monday – Saturday
+            </p>
 
-<p>
-Sunday Closed
-</p>
+            <strong>
+                11:00 AM – 9:00 PM
+            </strong>
 
-</div>
+            <p class="mt-3">
+                Sunday Closed
+            </p>
+
+        </div>
+
+    </div>
 
 </section>
 
 <!-- FINAL CTA -->
 
-<section class="py-5 text-center">
+<section class="cta-section text-white py-5">
 
-<div class="container">
+    <div class="container text-center">
 
-<h2>
-Ready to Join Us?
-</h2>
+        <h2>Ready To Join Us?</h2>
 
-<p class="lead">
-Reserve your table today and enjoy authentic Italian dining in Austin.
-</p>
+        <p class="lead">
+            Reserve your table today.
+        </p>
 
-/restaurant/73694"
-target="_blank"
-class="btn btn-success btn-lg">
-Reserve Now
-</a>
+        /restaurant/73694"
+           target="_blank"
+           class="btn btn-light btn-lg">
+            Reserve Now
+        </a>
 
-</div>
+    </div>
 
 </section>
 
 <!-- FOOTER -->
 
-<footer class="bg-dark text-white text-center py-4">
+<footer class="text-center text-white py-4">
 
-<div class="container">
+    <div class="container">
 
-<p class="mb-0">
-© 2026 Milano Cafe | Austin, Texas
-</p>
+        <p class="mb-0">
+            © 2026 Milano Cafe | Austin, Texas
+        </p>
 
-</div>
+    </div>
 
 </footer>
 
