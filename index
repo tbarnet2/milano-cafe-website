@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,134 +8,470 @@
     <title>Milano Cafe | Authentic Italian Restaurant in Austin TX</title>
 
     <meta name="description"
-          content="Milano Cafe offers authentic Italian cuisine in Austin, Texas. Fresh pasta, artisan pizza, online ordering, reservations, live music, and a welcoming atmosphere.">
+        content="Milano Cafe offers authentic Italian cuisine in Austin, Texas. Enjoy fresh pasta, artisan pizza, live music, online ordering, and reservations.">
 
     <meta name="keywords"
-          content="Italian Restaurant Austin, Italian Food Austin, Pizza Austin, Pasta Austin, Milano Cafe">
+        content="Italian Restaurant Austin, Italian Food Austin, Pasta Austin, Pizza Austin, Milano Cafe">
 
     .net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
           rel="stylesheet">
 
-    css/styles.css
+    /styles.css">
 
-    .com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap"
+    ?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap"
           rel="stylesheet">
 </head>
 
 <body>
 
-<!-- NAVIGATION -->
+    <!-- Navigation -->
 
-<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-    <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
 
-        <a class="navbar-brand" href="index.html">
-            Milano Cafe
-        </a>
+            <a class="navbar-brand" href="index.html">
+                Milano Cafe
+            </a>
 
-        <button class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNav">
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-label="Toggle navigation">
 
-            <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
 
-        </button>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse" id="navbarNav">
 
-            <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav ms-auto">
 
-                <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Home</a>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link active"
+                           href="index.html">
+                            Home
+                        </a>
+                    </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           href="about.html">
+                            About
+                        </a>
+                    </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="menu.html">Menu</a>
-                </li>
+                    <li class="nav-item">
+                        .html">
+                            Menu
+                        </a>
+                    </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="reservations.html">Reservations</a>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           href="reservations.html">
+                            Reservations
+                        </a>
+                    </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="ordering.html">Order Online</a>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           href="ordering.html">
+                            Order Online
+                        </a>
+                    </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           href="contact.html">
+                            Contact
+                        </a>
+                    </li>
 
-            </ul>
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Hero -->
+
+    <section class="hero-section">
+
+        <div class="container hero-content">
+
+            <h1>
+                Authentic Italian Dining in Austin
+            </h1>
+
+            <p class="lead">
+                Fresh pasta, artisan pizza, live music, local art, and genuine hospitality.
+            </p>
+
+            <div class="mt-4">
+
+                .com/restaurant/73694"
+                   target="_blank"
+                   class="btn btn-primary btn-lg me-2">
+                    Reserve A Table
+                </a>
+
+                <a href="https://order.spoton.com/so-milano-cafe-23898/austin-tx/682b85c2b3310a5fadb57869"
+                   target="_blank"
+                   class="btn btn-outline-light btn-lg">
+                    Order Online
+                </a>
+
+            </div>
 
         </div>
 
-    </div>
-</nav>
+    </section>
 
-<!-- HERO -->
+    <!-- Featured Dishes -->
 
-<section class="hero-section">
-    <div class="container hero-content">
+    <section class="py-5">
 
-        <h1>
-            Authentic Italian Dining in Austin
-        </h1>
+        <div class="container">
 
-        <p class="lead">
-            Fresh pasta, artisan pizza, fine wines, and warm hospitality.
-        </p>
+            <div class="text-center mb-5">
 
-        <div class="mt-4">
+                <h2>Featured Favorites</h2>
 
-            <a href="https://reserve.spoton.com/restaurant/73694"
+                <p>
+                    Discover some of our most popular Italian classics.
+                </p>
+
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-md-3">
+
+                    <div class="card h-100">
+
+                        images/food1.jpg                             alt="Chicken Parmigiana"
+                             class="card-img-top">
+
+                        <div class="card-body">
+
+                            <h5>Chicken Parmigiana</h5>
+
+                            <p>
+                                Breaded chicken topped with marinara and mozzarella.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <div class="card h-100">
+
+                        images/food2.jpg
+
+                        <div class="card-body">
+
+                            <h5>Lasagna</h5>
+
+                            <p>
+                                Layers of pasta, rich meat sauce, and Italian cheeses.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <div class="card h-100">
+
+                        3.jpg"
+                             alt="Fettuccine Alfredo"
+                             class="card-img-top">
+
+                        <div class="card-body">
+
+                            <h5>Fettuccine Alfredo</h5>
+
+                            <p>
+                                Creamy parmesan sauce tossed with fresh pasta.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <div class="card h-100">
+
+                        images/food4.jpg="Margherita Pizza"
+                             class="card-img-top">
+
+                        <div class="card-body">
+
+                            <h5>Margherita Pizza</h5>
+
+                            <p>
+                                Fresh mozzarella, basil, tomatoes, and olive oil.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Why Choose Us -->
+
+    <section class="bg-light py-5">
+
+        <div class="container">
+
+            <div class="text-center mb-5">
+
+                <h2>Why Guests Love Milano Cafe</h2>
+
+            </div>
+
+            <div class="row text-center">
+
+                <div class="col-md-3">
+
+                    <h4>Fresh Ingredients</h4>
+
+                    <p>
+                        Prepared daily for exceptional flavor.
+                    </p>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <h4>Italian Tradition</h4>
+
+                    <p>
+                        Authentic recipes inspired by generations of Italian cooking.
+                    </p>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <h4>Live Music</h4>
+
+                    <p>
+                        Enjoy a unique dining atmosphere with live performances.
+                    </p>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <h4>Local Art</h4>
+
+                    <p>
+                        Discover artwork from talented Austin-area artists.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Testimonials -->
+
+    <section class="py-5">
+
+        <div class="container">
+
+            <div class="text-center mb-5">
+
+                <h2>What Our Guests Say</h2>
+
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-md-4">
+
+                    <div class="testimonial">
+
+                        <p>
+                            "Excellent food, wonderful atmosphere, and outstanding service."
+                        </p>
+
+                        <strong>★★★★★</strong>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="testimonial">
+
+                        <p>
+                            "One of Austin's hidden gems for authentic Italian food."
+                        </p>
+
+                        <strong>★★★★★</strong>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="testimonial">
+
+                        <p>
+                            "Fantastic pasta, live music, and a beautiful atmosphere."
+                        </p>
+
+                        <strong>★★★★★</strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Hours -->
+
+    <section class="bg-light py-5">
+
+        <div class="container text-center">
+
+            <div class="hours-box">
+
+                <h2>Hours Of Operation</h2>
+
+                <p class="mt-4">
+                    Monday – Saturday
+                </p>
+
+                <strong>
+                    11:00 AM – 9:00 PM
+                </strong>
+
+                <p class="mt-3">
+                    Sunday Closed
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Location -->
+
+    <section class="py-5">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-lg-5">
+
+                    <h2>Visit Milano Cafe</h2>
+
+                    <p>
+                        4601 Southwest Parkway<br>
+                        Austin, TX 78735
+                    </p>
+
+                    <p>
+                        Phone: (512) 428-6076
+                    </p>
+
+                    <p>
+                        Email: cafemilanoaustin@gmail.com
+                    </p>
+
+                </div>
+
+                <div class="col-lg-7">
+
+                    <div class="ratio ratio-16x9">
+
+                        1%20Southwest%20Parkway%20Austin%20TX&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                            loading="lazy"
+                            allowfullscreen>
+                        </iframe>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Instagram -->
+
+    <section class="cta-section text-white py-5">
+
+        <div class="container text-center">
+
+            <h2>Follow Us On Instagram</h2>
+
+            <p class="lead">
+                Stay updated on new dishes, specials, events, and live music.
+            </p>
+
+            <a href="https://www.instagram.com/milanocafeatx/"
                target="_blank"
-               class="btn btn-primary btn-lg me-2">
-                Reserve a Table
-            </a>
-
-            <a href="https://order.spoton.com/so-milano-cafe-23898/austin-tx/682b85c2b3310a5fadb57869"
-               target="_blank"
-               class="btn btn-outline-light btn-lg">
-                Order Online
+               class="btn btn-light btn-lg">
+                Follow @milanocafeatx
             </a>
 
         </div>
 
-    </div>
-</section>
+    </section>
 
-<!-- FEATURED DISHES -->
+    <!-- Footer -->
 
-<section class="py-5">
+    <footer class="text-center text-white py-4">
 
-    <div class="container">
+        <div class="container">
 
-        <div class="text-center mb-5">
-
-            <h2>Featured Favorites</h2>
-
-            <p>
-                Handcrafted Italian classics served fresh every day.
+            <p class="mb-0">
+                © 2026 Milano Cafe | Austin, Texas
             </p>
 
         </div>
 
-        <div class="row g-4">
+    </footer>
 
-            <div class="col-md-3">
+    @5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-                <div class="card h-100">
+    js/script.js
 
-                    images/food1.jpg
-
-                    <div class="card-body">
-
-                        <h5>Chicken Parmigiana</h5>
-
-                        <p>
-                            Breaded chicken topped with marinara
+</body>
+</html>
